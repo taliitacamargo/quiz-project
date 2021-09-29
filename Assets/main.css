@@ -1,0 +1,192 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://www.cna.com.br/Content/uploads/blogposts/quizvocesabetudosobresimplepastfacaoteste.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    line-height: 25px;
+} 
+
+
+header {
+    padding: 0px;
+    color: yellow;
+    background-color: rgb(13, 23, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main {
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    min-height: 100vh;
+}
+
+.start {
+    text-align: center;
+}
+    
+#initials {
+    font-size: 100%;
+    padding: 10px;
+}
+
+#choices button {
+    display: block;
+    padding: 20px;
+    width: 50%;
+
+    
+}
+
+button {
+ 
+    display: inline-block;
+    background-color: transparent;
+    color:yellow;
+    font-family: sans-serif;
+    font-weight: 500;
+    border: 2px solid yellow;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.scores {
+    background: transparent;
+    font-family: sans-serif;
+    font-weight: 500;
+    border: 2px solid yellow;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+button:hover,
+.scores:hover {
+    background-color: yellow;
+    color:black;
+    box-shadow: 3px -4px 10px rgba(175, 143, 3, 0.747);
+    
+}
+
+
+.info_box,
+.outer-section {
+    margin:50px;
+    padding: 100px;
+    width: 900px;
+    height: 700px;
+    color: whitesmoke;
+    border-radius: 10px;
+    background-color: rgb(13, 23, 34);
+    opacity: 95%;
+}
+
+nav, a, i {
+    text-decoration: none;
+    color: white;
+}
+
+.timer {
+    float:right;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+
+.links {
+    width: 8em;
+    display: block;
+    margin: 0 auto;
+    padding-right:30px;
+}
+
+.links-list {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.fa-linkedin-square,
+.fa-github,
+.fa-envelope {
+    padding: 5px;
+}
+.fa-linkedin-square:hover,
+.fa-github:hover,
+.fa-envelope:hover {
+    opacity:50%;
+}
+
+.inner-question-container {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(13, 23, 34);;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: yellow;
+    font-weight: 500;
+    }
+
+
+.hide {
+ display: none;
+}
+
+
+
+    @media screen and (max-width: 992px) {
+.header-styling { 
+    flex-direction: column;
+}
+
+.timer {
+    width: 100%;
+    text-align: center;
+}
+
+.my-logo {
+  width: 150px;
+  height: 100px;
+}
+
+h1, h2 , h3 {
+    font-size: 15px;
+}
+
+button,
+input
+ {
+    width: 100%;
+}
+
+}
+
+@media screen and (min-width: 400px) {
+
+.info_box{
+    padding: 60px;
+   
+}
+}
+        
+    
