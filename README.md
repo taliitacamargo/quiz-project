@@ -12,7 +12,7 @@ WHEN the game is over
 THEN I can save my initials and set my score on the board.
 There were additionals such as link on the logo to the landing page so that it facilitates navigation through the app, background image
 so that it looks a bit more interesting to the eyes of its users and other animations with buttons. 
-deployed URL:                                             GitHub Repo URL:
+deployed URL: https://taliitacamargo.github.io/quiz-project/index.html GitHub Repo URL: https://github.com/taliitacamargo/quiz-project.git
 
 
 
