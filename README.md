@@ -23,3 +23,4 @@ Technologies: HTML, CSS, JAVASCRIPT
 ![Quiz Challenge-questions](https://user-images.githubusercontent.com/88398240/135314499-560ee682-5af6-479a-a212-e6fdb6bc603b.jpg)
 ![Highscores](https://user-images.githubusercontent.com/88398240/135314560-159a7f84-675b-43f7-9f66-d77f00fe9925.jpg)
 
+Contact: taliitacamargo@icloud.com
