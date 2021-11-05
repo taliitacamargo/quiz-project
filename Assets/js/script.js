@@ -28,11 +28,15 @@ function startQuiz () {
 function getQuestion() {
   var currentQuestion = questions[currentQuestionIndex];
   var questionTitle = document.getElementById("question-title");
+
   questionTitle.textContent = currentQuestion.title;
+  
   choicesEl.textContent = " ";
+  
   currentQuestion.choices.forEach((answerChoice, i) => {
   var choiceButton = document.createElement("button");
   choiceButton.setAttribute("value", answerChoice);
+  choiceButton.setAttribute("class", "d-flex justify-content-center text-center ");
   choiceButton.textContent = i+1+"."+ answerChoice; 
   choiceButton.onclick = questionClick;
   choicesEl.appendChild(choiceButton);
@@ -50,7 +54,7 @@ function questionClick(answerChoice) {
   feedback.setAttribute("class", "feedback");
   setInterval(function(){
     feedback.setAttribute("class", "feedback hide");
-  },500);
+  },900);
   currentQuestionIndex++;
   if (currentQuestionIndex === questions.length)
   quizEnd();

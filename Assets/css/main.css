@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -39,20 +41,18 @@ main {
 }
 
 #choices button {
+    margin-top: 20px;
     display: block;
     padding: 20px;
-    width: 50%;
-
-    
+    width: 95%;
 }
 
 button {
- 
     display: inline-block;
     background-color: transparent;
     color:yellow;
     font-family: sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     border: 2px solid yellow;
     padding: 14px 28px;
     font-size: 16px;
@@ -177,16 +177,36 @@ button,
 input
  {
     width: 100%;
+   
 }
 
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 768px) {
 
 .info_box{
     padding: 60px;
    
 }
+
+input {
+  margin: 10px;
 }
+
+button,
+input
+ {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#end-screen {
+    text-align: center;
+}
+}
+
+
         
     
